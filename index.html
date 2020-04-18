@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michi</title>
+<link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <header >
+        <!--Logo-->
+    <h1><img src="img/logo.png" width="100" height="100">MICHI</h1>
+    <!--Navegacion-->
+<nav>
+    <ol>
+    <li><a href="/index.html">Inicio</a></li>
+    <li><a href="">Contacto</a></li>
+    <li><a href="">Registro</a></li>
+    </ol>
+</nav>
+    </header>
+    <!--Descripcion de la pagina-->
+    <section id="descripcion">
+    <P>Proyecto para la búsqueda y reubicacion de <strong><a href="https://es.wikipedia.org/wiki/Felis_silvestris_catus">gatos</a></strong> perdidos o abandonados.</P>
+    <p>Pensado para la publicacion y visualizacion de usuarios que quieran  <strong><a href="https://es.wikipedia.org/wiki/Adopci%C3%B3n">adoptarlos.</a></strong></p>
+    <!--FORMULARIOS-->
+
+    <!--busqueda-->
+        <form action="http://wilder.azurewebsites.net/echo" method="">
+         <label for="searchPhrase">Buscar: </label>
+         <input name="searchPhrase" id="searchPhrase"><br/>
+         <input type="checkbox" name="useStars" id="useStars" checked="true"/>
+         <label for="useStars"></label><br/>
+
+        <!--Menu desplegable-->
+        <label for="publiChoise">Publicaciones:</label>
+        <select name="publiChoise" id="publiChoise">
+            <option selected="true">Todo</option>
+            <option>Esta semana</option>
+            <option>Este mes</option>
+
+        </select>
+        <input type="submit" value="buscar">
+    </form>
+    </section>
+    <nav>
+
+    </nav>
+    <!--Pie de pagina-->
+    <footer>
+&copy;Correa,Altamirano
+<a href="https://github.com/Abel075/Michi">github</a>
+    </footer>
+</body>
+</html>
+
