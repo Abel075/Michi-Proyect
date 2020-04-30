@@ -1,0 +1,146 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    width: 1300px;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: #6ef1c6;
+    overflow: hidden;
+}
+.logo{
+    float: right;
+    padding: 20px;
+    width: 300px;
+    
+    
+    
+}
+/*estilo para el menu de opciones*/
+.menu{
+    float: left;
+    padding: 80px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.opciones li a:hover{
+    background: #11eea4 ;
+}
+
+
+/*estilos para el cuerpo*/
+.cuerpo{
+    background-color: #6ef1c6 ;
+    
+    overflow:auto;
+}
+.caja{
+
+    
+    float: left;
+    width: 30%;
+    margin:20px;
+    text-align: center;
+    border: 1px solid white;
+
+
+}
+.subtitulo{
+
+    background: #6ef1c6;
+    
+}
+.servicios{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    background-color:#06b47a;
+    
+}
+.efecto:hover{
+
+    opacity: 0.9;
+    cursor: pointer;
+}
+.contenido{
+    padding: 15px;
+    text-align: justify;
+}
+.titulo{
+    text-align: center;
+    background-color:#06b47a ;
+    color: white;
+    padding: 20px 0 15px 0;
+    font-size: 30px;
+}
+.boton{
+    padding: 10px 20px;
+    margin: 12px 0;
+    color:black;
+    background:white;
+    border-radius: 5px;
+} 
+.boton:hover{
+    background:#03f1a2 ;
+    cursor: pointer;
+}
+.michi{
+    float: right;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-color: black;
+    padding: 10px;
+    
+}
+/* estilos del footer */
+.pie{
+    background:#3a3d47;
+    color: white;
+    overflow:hidden;
+}
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+/*iconos de redes sociales */
+.derecha{
+    
+    float: right;
+    width: 550px;
+    padding: 20px;
+    text-align: right;
+    
+}
+.siguenos{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color:white;
+    font-size: 20px;
+}
+.redes{
+    cursor: pointer ;
+    ;
+    
+}
